@@ -4,7 +4,7 @@ import pyautogui, time
 time.sleep(3)
 m = pyautogui.click(29,747)
 
-
+#open paint programme 
 
 pyautogui.typewrite('Paint', 0.5)
 time.sleep(1)
@@ -14,7 +14,7 @@ pyautogui.typewrite(['enter'])
 time.sleep(12)
 
 
-
+#maximise the paint programme.......
 
 pyautogui.keyDown('altleft')
 pyautogui.press('space')
@@ -26,6 +26,8 @@ pyautogui.press('down')
 pyautogui.press('enter')
 
 time.sleep(4)
+
+#draw something 
 
 pyautogui.click(41,175)
 
@@ -49,7 +51,7 @@ pyautogui.click(250,175)
 distance2 = 200
 
 
-
+# save the drawing
 
 time.sleep(1)
 
